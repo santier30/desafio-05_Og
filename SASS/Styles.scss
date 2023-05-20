@@ -1,0 +1,92 @@
+@import "./config";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Righteous&family=Rubik+Pixels&display=swap');
+
+html{
+  background-color: $primary-color;
+  font-family:'Lobster', cursive ;
+  padding-bottom: 20rem;
+  
+  &::after {
+    content: "";
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-image: url('../img/ciudad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+
+}
+body {
+  position: relative;
+  z-index: 100;
+  width: 80%;
+  background-color:$secondary-color ;
+  border-radius: .7rem;
+  margin: 8rem auto;
+  padding: 2rem 1rem 5rem 1rem;
+  box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.3);
+  &::after {
+    content: url('../img/gato.png');
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -25rem;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+}
+  
+    h1{
+      z-index: 10;
+      top: 0;
+      width: 100%;
+      left: 0;
+      font-size: 2.8rem;
+      position: fixed;
+      text-align: center;
+      color: white;
+      background-color: $title-color;
+      padding: .8rem;
+    }
+    h2{
+      color: $title-color;
+      padding: 1.2rem;
+      font-size: 2rem;
+    }
+    p{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      padding: .6rem;
+      font-size: 1.1rem;
+       &::first-letter {
+       font-size: 2rem;
+  font-family:'Lobster', cursive ;
+
+      }
+    }
+   
+    
+    h2,p:nth-child(3),p:nth-child(8){
+      text-align: center;
+      width: 100%;
+      font-family:'Lobster', cursive ;
+    }
+    p:nth-child(3),p:nth-child(8){
+      font-size: 1.5rem;
+
+    
+
+    }
+  }
+  
+ 
+ 
+
+    
